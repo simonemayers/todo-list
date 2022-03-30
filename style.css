@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    margin: auto;
+}
+ul{
+    list-style: none;
+
+}
+
+.cross-out{
+    text-decoration: line-through;
+}
