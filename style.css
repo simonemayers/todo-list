@@ -1,6 +1,7 @@
 body{
     text-align: center;
     margin: auto;
+    background-color: rgba(166, 245, 238, 0.3);
 }
 ul{
     list-style: none;
@@ -9,4 +10,43 @@ ul{
 
 .cross-out{
     text-decoration: line-through;
+}
+
+.highlight{
+    background-color:yellow;
+    padding:0.1em 0.2em;
+}
+.top-header{
+    padding: 1%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#new-item-input{
+    width: 50%;
+}
+#list{
+    padding-left: 0%;
+}
+
+.new-list-item{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#add-item-button{
+    margin-left: 1%;
+}
+
+.btn-danger{
+    margin-left: 1%; 
+}
+
+.list-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
